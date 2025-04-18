@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.30)
-project(project_1_calculator)
+project(project_1_calculator C)
 
-set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_C_STANDARD 11)
 
-add_executable(project_1_calculator main.cpp)
+add_executable(project_1_calculator main.c)
