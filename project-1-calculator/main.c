@@ -1,38 +1,38 @@
 #include <stdio.h>
 
 int main(void) {
-    int a;
-    int b;
+    double a;
+    double b;
     char c;
-    int result;
+    double result;
     printf("Enter the first number:");
-    scanf("%d", &a);
+    scanf("%lf", &a);
     printf("Enter the second number:");
-    scanf("%d", &b);
+    scanf("%lf", &b);
     printf("Enter the operation (+,-,/,*)");
     scanf(" %c", &c);
 
     switch (c) {
         case '+':
             result = a + b;
-            printf("Result is %d\n", result);
+            printf("Result is %lf\n", result);
             break;
         case '-':
             result = a - b;
-            printf("Result is %d\n", result);
+            printf("Result is %lf\n", result);
 
             break;
         case '/':
             if (b != 0) {
                 result = a / b;
-                printf("Result is %d\n", result);
+                printf("Result is %lf\n", result);
             } else {
                 printf("Division by Zero\n");
             }
             break;
         case '*':
             result = a * b;
-            printf("Result is %d\n", result);
+            printf("Result is %lf\n", result);
 
             break;
         default:
