@@ -1,0 +1,3 @@
+/Users/mihajlodjokic/Documents/cs130-14-projects/untitled/cmake-build-debug/CMakeFiles/untitled.dir
+/Users/mihajlodjokic/Documents/cs130-14-projects/untitled/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/mihajlodjokic/Documents/cs130-14-projects/untitled/cmake-build-debug/CMakeFiles/rebuild_cache.dir
